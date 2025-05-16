@@ -13,6 +13,7 @@ Welcome to the **Telco Customer Churn Analysis & Predictive Model** project! Thi
 ## 📚 Table of Contents
 
 - [Introduction](#introduction)
+- [Project Enhancements](#project-Enchancements)
 - [Data Overview](#data-overview)
 - [Exploratory Analysis](#exploratory-analysis)
 - [Predictive Modeling](#predictive-modeling)
