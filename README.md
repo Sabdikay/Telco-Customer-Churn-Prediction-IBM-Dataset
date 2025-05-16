@@ -1,12 +1,8 @@
+<p align="center"> <img src="https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter"> <img src="https://img.shields.io/badge/Python-3.8-blue?logo=python"> <img src="https://img.shields.io/badge/Machine%20Learning-RandomForest-green?logo=scikitlearn"> <img src="https://img.shields.io/badge/Data%20Analysis-Pandas-blue?logo=pandas"> <img src="https://img.shields.io/badge/Visualization-Plotly-green?logo=plotly"> </p> <h1 align="center"> 📈 Telco Customer Churn Analysis & Predictive Model 📉 </h1> <p align="center"> 🚀 Data-driven EDA + ML project to predict customer churn & reasons using IBM Telco dataset.<br> 🎯 Powered by Random Forest classifier with real-time customer simulation & actionable insights.<br> 💼 Built in Jupyter Notebook using Python, pandas, seaborn, plotly, sklearn and more. </p>
 # Telco Customer Churn Analysis & Predictive Model
 
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)  
-![Python](https://img.shields.io/badge/Python-3.8-blue?logo=python)  
-![Machine Learning](https://img.shields.io/badge/ML-Predictive_Model-green?logo=scikitlearn)  
-![Data Analysis](https://img.shields.io/badge/Data-Analysis-blue?logo=pandas)
-![Plotly](https://img.shields.io/badge/Plotly-Interactive-green)
-
-Welcome to the **Telco Customer Churn Analysis & Predictive Model** project! This Jupyter Notebook project explores customer churn data from a fictional telecommunications company serving 7,043 customers in California during Q3. We not only perform extensive exploratory data analysis (EDA) but also build and evaluate predictive models to forecast both customer churn and churn reasons.
+Welcome to the **Telco Customer Churn Analysis & Predictive Model** project!
+This Jupyter Notebook project explores customer churn data from a fictional telecommunications company serving 7,043 customers in California during Q3. We not only perform extensive exploratory data analysis (EDA) but also build and evaluate predictive models to forecast both customer churn and churn reasons.
 
 ---
 
