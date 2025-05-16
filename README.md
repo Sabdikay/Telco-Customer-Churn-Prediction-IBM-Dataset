@@ -35,6 +35,37 @@ The analysis is conducted in a Jupyter Notebook using Python libraries such as *
 
 ---
 
+## 🚀 Project Enhancements
+
+This project has undergone several critical updates and refinements:
+
+* ✅ **Improved Predictive Models:**
+
+  * Initially, models showed **1.000 training accuracy** due to unscaled numerical data and deep tree algorithms.
+  * This issue was corrected by introducing **standard scaling**, tuning model depth, and enhancing the preprocessing pipeline, resulting in more realistic and reliable model accuracy.
+
+* ✅ **Smarter Churn Reason Prediction Logic:**
+
+  * The logic was **redefined to predict churn reason only for customers who are predicted to churn**, rather than all customers.
+  * This greatly improved precision and reduced logical inconsistencies.
+
+* ✅ **Class Imbalance Handling & Cross-Validation:**
+
+  * Class imbalances were identified and mitigated.
+  * Cross-validation techniques were added to ensure model robustness.
+
+* ✅ **Dynamic User Simulation Feature:**
+
+  * Developed a **custom function** that generates **any number of random customers**.
+  * For each simulated customer, the system:
+
+    * Predicts churn probability (with percentage).
+    * Outputs prediction result.
+    * Shows customer’s key features (e.g., Monthly Charges, Contract Type).
+    * If churn is predicted, also returns **predicted churn reason**.
+
+---
+
 ## Data Overview
 
 The dataset, **Telco_customer_churn.xlsx**, includes detailed customer information such as demographics, service usage, billing details, and churn indicators (e.g., Churn Label, Churn Value, Churn Score, CLTV, and Churn Reason). Data cleaning steps involved dropping irrelevant columns, converting data types, and handling missing values to prepare for analysis.
@@ -77,6 +108,16 @@ Using techniques like label encoding and feature scaling, we evaluated three mod
 ### Sample Predictions
 
 We also tested the model on simulated new customer data, generating predictions for churn and corresponding churn reasons (e.g., *Service Quality*, *Price*, *Competitor*, *Other*).
+
+### Simulation Example
+
+Using the **dynamic customer generator**, we can simulate multiple new customers and predict:
+
+* Churn probability (%)
+* Churn or not
+* Monthly Charges
+* Contract Type
+* Churn Reason (if churn is predicted)
 
 ---
 
@@ -151,4 +192,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-*Thank you for exploring the Telco Customer Churn Analysis & Predictive Model project! 🚀📊✨*
+*Thank you for exploring the Telco Customer Churn Analysis & Predictive Model project!
+Empower your decisions with data-driven churn predictions! 🚀📊✨*
